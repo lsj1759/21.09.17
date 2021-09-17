@@ -10,7 +10,7 @@ int main()
 
 	for (int i = 0; i < Max; i++)
 	{
-		for (int j = 0; j < Max - i; j++)
+		for (int j = 1; j < Max - i; j++)
 		{
 			cout << "*";
 		}
