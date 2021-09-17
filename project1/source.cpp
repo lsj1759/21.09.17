@@ -8,9 +8,9 @@ int main()
 
 	cin >> Max;
 
-	for (int i = 0; i <= Max; i++)
+	for (int i = 0; i < Max; i++)
 	{
-		for (int j = 0; j <= Max + i - 5; j++)
+		for (int j = 0; j < Max - i; j++)
 		{
 			cout << "*";
 		}
