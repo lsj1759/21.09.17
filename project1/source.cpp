@@ -4,18 +4,18 @@ using namespace std;
 
 int main()
 {
-	int HP = 0;
-	int MP = 0;
-	//float MP = 10.2f;
-	//char SP = 'H';
-	//char TP = 'Y';
+	// a  0 1  2  3  4  5  6  7  8  9 
+	//   [2^32] [] [] [] [] [] [] [] [] [] 
 
-	// 키보드 입력 받아서 HP와 MP에 저장
-	cin >> HP;
-	cin >> MP;
+	int Total = 0;
 
-	cout << HP + MP << endl;
+	for (int Count = 1; Count <= 100; Count++)
+	{
+		Total = Total + Count; 
 
+	}
+
+	cout << Total << endl;
 
 	return 0;
 }
