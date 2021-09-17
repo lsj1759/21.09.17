@@ -3,19 +3,19 @@
 using namespace std;
 
 int main()
-{
-	// a  0 1  2  3  4  5  6  7  8  9 
-	//   [2^32] [] [] [] [] [] [] [] [] [] 
+{	
+	int Max = 0;
 
-	int Total = 0;
+	cin >> Max;
 
-	for (int Count = 1; Count <= 100; Count++)
+	for (int i = 0; i <= Max; i++)
 	{
-		Total = Total + Count; 
-
+		for (int j = 0; j <= Max + i - 5; j++)
+		{
+			cout << "*";
+		}
+		cout << endl;
 	}
-
-	cout << Total << endl;
-
+	
 	return 0;
 }
